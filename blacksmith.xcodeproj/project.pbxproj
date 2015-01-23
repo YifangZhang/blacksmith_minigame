@@ -15,6 +15,7 @@
 		16F3C5731A72E71900411801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3C5721A72E71900411801 /* Images.xcassets */; };
 		16F3C5761A72E71900411801 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F3C5741A72E71900411801 /* LaunchScreen.xib */; };
 		16F3C5821A72E71A00411801 /* blacksmithTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3C5811A72E71A00411801 /* blacksmithTests.swift */; };
+		16F3C58C1A72FD4A00411801 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3C58B1A72FD4A00411801 /* Spaceship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		16F3C57B1A72E71A00411801 /* blacksmithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blacksmithTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F3C5801A72E71A00411801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F3C5811A72E71A00411801 /* blacksmithTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blacksmithTests.swift; sourceTree = "<group>"; };
+		16F3C58B1A72FD4A00411801 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				16F3C5671A72E71900411801 /* AppDelegate.swift */,
 				16F3C5691A72E71900411801 /* GameScene.sks */,
+				16F3C58B1A72FD4A00411801 /* Spaceship.swift */,
 				16F3C56B1A72E71900411801 /* GameScene.swift */,
 				16F3C56D1A72E71900411801 /* GameViewController.swift */,
 				16F3C56F1A72E71900411801 /* Main.storyboard */,
@@ -167,6 +170,7 @@
 				TargetAttributes = {
 					16F3C5611A72E71900411801 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 777S6HRAMC;
 					};
 					16F3C57A1A72E71A00411801 = {
 						CreatedOnToolsVersion = 6.1;
@@ -221,6 +225,7 @@
 			files = (
 				16F3C56C1A72E71900411801 /* GameScene.swift in Sources */,
 				16F3C56E1A72E71900411801 /* GameViewController.swift in Sources */,
+				16F3C58C1A72FD4A00411801 /* Spaceship.swift in Sources */,
 				16F3C5681A72E71900411801 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = blacksmith/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = blacksmith/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
